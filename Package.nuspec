@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>david511382GoogleExcel</id>
+    <version>1.0.0</version>
+    <title>GoogleExcel</title>
+    <authors>David</authors>
+    <owners>David</owners>
+    <projectUrl>https://github.com/david511382/GoogleExcel</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Google Sheet Tool</description>
+    <releaseNotes>基本使用</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>Google Sheet Excel</tags>
+    <dependencies>
+      <dependency id="BouncyCastle" version="1.8.6.1" />
+      <dependency id="david511382HttpHelper" version="1.0.0" />
+      <dependency id="Google.Apis.Sheets.v4" version="1.45.0.1965" />
+      <dependency id="NETStandard.Library" version="2.0.3" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\netstandard2.0\GoogleExcel.dll" target="lib\GoogleExcel.dll"></file>
+  </files>
+</package>
